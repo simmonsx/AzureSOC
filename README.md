@@ -57,10 +57,51 @@ Click below to see KQL Queries used to collect logs
 
   <details>
     
-```
+Start & Stop Time:    
+```Kusto
 range x from 1 to 1 step 1
 | project StartTime = ago(24h), StopTime = now()    
 ```
+Security Event (Windows VM):
+```Kusto
+SecurityEvent
+| where TimeGenerated >= ago(24h)
+| count   
+```
+Syslog (Linux VMs):
+```Kusto
+Syslog
+| where TimeGenerated >= ago(24h)
+| count  
+```
+SecurityAlert (Microsoft Defender for Cloud):
+```Kusto
+SecurityAlert
+| where DisplayName !startswith "CUSTOM" and DisplayName !startswith "TEST"
+| where TimeGenerated >= ago(24h)
+| count  
+```
+Security Incident (Sentinel Incidents)
+```Kusto
+SecurityIncident
+| where TimeGenerated >= ago(24h)
+| count  
+```
+NSG Inbound Malicious Flows Allowed
+```Kusto
+AzureNetworkAnalytics_CL 
+| where FlowType_s == "MaliciousFlow" and AllowedInFlows_d > 0
+| where TimeGenerated >= ago(24h)
+| count    
+```
+NSG Inbound Malicious Flows Blocked
+```Kusto
+AzureNetworkAnalytics_CL 
+| where FlowType_s == "MaliciousFlow" and DeniedInFlows_d > 0
+| where TimeGenerated >= ago(24h)
+| count   
+```
+
 
   </details>
 
