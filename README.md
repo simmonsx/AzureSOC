@@ -56,10 +56,12 @@ Stop Time 7/27/2023, 5:18:40 PM
 Click below to see KQL Queries used to collect logs
 
   <details>
+    
 ```
 range x from 1 to 1 step 1
 | project StartTime = ago(24h), StopTime = now()    
 ```
+
   </details>
 
 ## Attack Maps After Hardening / Security Controls
