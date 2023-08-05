@@ -53,6 +53,10 @@ Stop Time 7/27/2023, 5:18:40 PM
 | SecurityIncident         | 382
 | AzureNetworkAnalytics_CL | 2007
 
+Click below to see KQL Queries used to collect logs
+
+  <details close>
+
 ## Attack Maps After Hardening / Security Controls
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24-hour period after hardening.```
