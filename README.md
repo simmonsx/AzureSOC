@@ -4,8 +4,8 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Metrics BEFORE Hardening/Security Controls](#Before-Hardening-/-Security-Controls)
-- [Metrics AFTER Hardening/Security Controls](#After-Hardening-/-Security-Controls)
+- [BEFORE Security Controls](#Before-Security-Controls)
+- [AFTER Security Controls](#After-Security-Controls)
 - [Conclusion](#Conclusion)
 
 ## Introduction
@@ -18,10 +18,10 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - SecurityIncident (Incidents created by Sentinel)
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
-## Architecture Before Hardening / Security Controls
+## Architecture Before Security Controls
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
 
-## Architecture After Hardening / Security Controls
+## Architecture After Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
 
 The architecture of the mini honeynet in Azure consists of the following components:
@@ -38,7 +38,7 @@ For the "BEFORE" metrics, all resources were originally deployed, and exposed to
 
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
-## Before Hardening / Security Controls
+## Before Security Controls
 ## Attack Maps 
   
 NSG Allowed Inbound Malicious Flows
@@ -114,7 +114,7 @@ AzureNetworkAnalytics_CL
 
   </details>
 
-## After Hardening / Security Controls
+## After Security Controls
 ## Attack Maps
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24-hour period after hardening.```
