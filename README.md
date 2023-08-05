@@ -32,37 +32,40 @@ For the "BEFORE" metrics, all resources were originally deployed, and exposed to
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
+NSG Allowed Inbound Malicious Flows
 ![NSG Allowed Inbound Malicious Flows](CyberLab/before/nsgM-W.png)<br>
+Linux Syslog Auth Failures
 ![Linux Syslog Auth Failures](CyberLab/before/ssh-W.png)<br>
+Windows RDP/SMB Auth Failures
 ![Windows RDP/SMB Auth Failures](CyberLab/before/nsgM-W.png)<br>
 
 ## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2023-03-15 17:04:29
-Stop Time 2023-03-16 17:04:29
+Start Time 7/26/2023, 5:18:40 PM
+Stop Time 7/27/2023, 5:18:40 PM
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 19470
-| Syslog                   | 3028
-| SecurityAlert            | 10
-| SecurityIncident         | 348
-| AzureNetworkAnalytics_CL | 843
+| SecurityEvent            | 12503
+| Syslog                   | 30403
+| SecurityAlert            | 9
+| SecurityIncident         | 382
+| AzureNetworkAnalytics_CL | 2007
 
-## Attack Maps Before Hardening / Security Controls
+## Attack Maps After Hardening / Security Controls
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24-hour period after hardening.```
 
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we applied security controls:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+Start Time 7/28/2023, 12:26:45 AM
+Stop Time	7/29/2023, 12:26:45 AM
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 8778
+| SecurityEvent            | 688
 | Syslog                   | 25
 | SecurityAlert            | 0
 | SecurityIncident         | 0
