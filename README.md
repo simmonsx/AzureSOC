@@ -55,7 +55,9 @@ Stop Time 7/27/2023, 5:18:40 PM
 
 Click below to see KQL Queries used to collect logs
 
-  <details close>
+  <details>
+
+  </details>
 
 ## Attack Maps After Hardening / Security Controls
 
