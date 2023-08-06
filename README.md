@@ -4,10 +4,10 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [BEFORE Security Controls](#Before-Security-Controls)
-- [AFTER Security Controls](#After-Security-Controls)
-- [Conclusion](#Conclusion)
-- [Contributing and Acknowledgement](#Contributing-and-Acknowledgement)
+- [BEFORE Security Controls](#before-security-controls)
+- [AFTER Security Controls](#after-security-controls)
+- [Conclusion](#conclusion)
+- [Contributing and Acknowledgement](#contributing-and-acknowledgement)
 
 ## Introduction
 
