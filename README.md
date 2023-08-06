@@ -63,9 +63,7 @@ Stop Time 7/27/2023, 5:18:40 PM
 | SecurityIncident         | 382
 | AzureNetworkAnalytics_CL | 2007
 
-Click below to see KQL Queries used to collect logs
-
-  <details>
+See KQL Queries used to collect logs
     
 Start & Stop Time:    
 ```Kusto
