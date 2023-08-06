@@ -7,6 +7,7 @@ urse # Building a SOC + Honeynet in Azure (Live Traffic)
 - [BEFORE Security Controls](#Before-Security-Controls)
 - [AFTER Security Controls](#After-Security-Controls)
 - [Conclusion](#Conclusion)
+- [Contributing and Acknowledgement](#Contributing-and-Acknowledgement)
 
 ## Introduction
 
