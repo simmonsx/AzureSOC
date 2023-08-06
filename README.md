@@ -19,10 +19,10 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - SecurityIncident (Incidents created by Sentinel)
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
-## Architecture Before Security Controls
+### Architecture Before Security Controls
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
 
-## Architecture After Security Controls
+### Architecture After Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
 
 The architecture of the mini honeynet in Azure consists of the following components:
@@ -40,7 +40,7 @@ For the "BEFORE" metrics, all resources were originally deployed, and exposed to
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Before Security Controls
-## Attack Maps 
+### Attack Maps 
   
 NSG Allowed Inbound Malicious Flows
 ![NSG Allowed Inbound Malicious Flows](CyberLab/before/nsgM-W.png)<br>
@@ -49,7 +49,7 @@ Linux Syslog Auth Failures
 Windows RDP/SMB Auth Failures
 ![Windows RDP/SMB Auth Failures](CyberLab/before/nsgM-W.png)<br>
 
-## Log Metrics 
+### Log Metrics 
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
 Start Time 7/26/2023, 5:18:40 PM <br>
@@ -112,11 +112,11 @@ AzureNetworkAnalytics_CL
   </details>
 
 ## After Security Controls
-## Attack Maps
+### Attack Maps
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24-hour period after hardening.```
 
-## Log Metrics
+### Log Metrics
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we applied security controls:
 Start Time 7/28/2023, 12:26:45 AM <br>
