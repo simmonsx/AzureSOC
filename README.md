@@ -1,4 +1,4 @@
-urse # Building a SOC + Honeynet in Azure (Live Traffic)
+# Building a SOC + Honeynet in Azure (Live Traffic)
 ![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
 
 ## Table of Contents
@@ -111,8 +111,6 @@ AzureNetworkAnalytics_CL
 | where TimeGenerated >= ago(24h)
 | count   
 ```
-
-
   </details>
 
 ## After Security Controls
