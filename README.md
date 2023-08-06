@@ -146,3 +146,8 @@ In this project, a mini honeynet was constructed in Microsoft Azure, and log sou
 | AzureNetworkAnalytics_CL | 2007   | 0     | -100.00%
 
 It is worth noting that if the resources within the network were heavily utilized by regular users, it is likely that more security events and alerts may have been generated within the 24-hour period following the implementation of the security controls.
+
+
+## Contributing 
+
+Contributions to this project are welcome! If you find any issues or want to enhance the project, feel free to submit a pull request.
