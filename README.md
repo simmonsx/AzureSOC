@@ -147,4 +147,4 @@ It is worth noting that if regular users heavily utilized the resources within t
 
 ## Contributing and Acknowledgement
 
-Contributions to this project are welcome! Feel free to submit a pull request if you find any issues or want to enhance the project.
+Sincere thanks to all that offered their advice and support throughout the project. Contributions to this project are welcome! Feel free to submit a pull request if you find any issues or want to enhance the project.
