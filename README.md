@@ -147,4 +147,4 @@ It is worth noting that if regular users heavily utilized the resources within t
 
 ## Contributing and Acknowledgement
 
-This project was directed through a guided course available at https://www.leveldcareers.com/. Contributions to this project are welcome! Feel free to submit a pull request if you find any issues or want to enhance the project.
+Contributions to this project are welcome! Feel free to submit a pull request if you find any issues or want to enhance the project.
