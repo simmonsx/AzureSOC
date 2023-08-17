@@ -138,7 +138,7 @@ In this project, a mini honeynet was constructed in Microsoft Azure, and log sou
 | ------------------------ | ------ | ----- | --------------------
 | SecurityEvent            | 12503  | 688   | -98.48%
 | Syslog                   | 30403  | 25    | -99.94%
-| SecurityAlert            | 0      | 0     | -100.00%
+| SecurityAlert            | 9      | 0     | -100.00%
 | SecurityIncident         | 382    | 0     | -100.00%
 | AzureNetworkAnalytics_CL | 2007   | 0     | -100.00%
 
